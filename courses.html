@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="personal.css" />
+    <script src="course.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3
+          style="
+            text-align: center;
+            font-weight: bold;
+            color: rgb(241, 140, 7);
+            text-shadow: 2px 2px 2px rgb(247, 7, 107);
+          "
+        >
+          Courses
+        </h3>
+        <br />
+        <div id="abc">
+          <fieldset class="user" id="o">
+            <input
+              id="a"
+              placeholder="Organization name"
+              type="text"
+              tabindex="5"
+              required
+            />
+          </fieldset>
+
+          <fieldset class="user">
+            <input
+              id="b"
+              placeholder="Role.."
+              type="text"
+              tabindex="5"
+              required
+            />
+          </fieldset>
+
+          <fieldset id="oo" class="user">
+            From
+            <input
+              id="c"
+              placeholder="from date"
+              type="date"
+              tabindex="5"
+              required
+            />
+
+            - To
+            <input
+              id="d"
+              placeholder="from date"
+              type="date"
+              tabindex="5"
+              required
+            />
+            <input id="e" type="radio" value="Present" /> Present
+          </fieldset>
+
+          <fieldset class="user">
+            <textarea
+              id="f"
+              placeholder="Description(Optional)"
+              tabindex="5"
+            ></textarea>
+          </fieldset>
+        </div>
+        <div id="aaa"></div>
+        <button
+          id="add"
+          name="submit"
+          type="submit"
+          style="display: inline-block; width: 5cm;"
+        >
+          Add Organisation
+        </button>
+        <div id="o"><br /></div>
+        <button
+          style="font-size: 0.5cm;"
+          name="submit"
+          type="submit"
+          id="contact-submit"
+          data-submit="...Sending"
+        >
+          Submit
+        </button>
+        <div id="i" style="color: white; font-size: 0.5cm;"></div>
+      </form>
+    </div>
+  </body>
+</html>

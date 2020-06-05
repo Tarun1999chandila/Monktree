@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="personal.css" />
+    <script src="per.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3
+          style="
+            text-align: center;
+            font-weight: bold;
+            color: rgb(241, 140, 7);
+            text-shadow: 2px 2px 2px rgb(247, 7, 107);
+          "
+        >
+          Personal Info
+        </h3>
+        <br />
+
+        <div class="user" style="display: inline-block;">
+          <input
+          id="a"
+            style="width: 5.2cm;"
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </div>
+        <div style="display: inline-block;"></div>
+        <div class="user" style="display: inline-block;">
+          <fieldset class="user">
+            <input
+            id="b"
+              style="width: 5.2cm;"
+              placeholder="Occupation"
+              type="text"
+              tabindex="2"
+              required
+            />
+          </fieldset>
+        </div>
+
+        <fieldset class="user">
+          <input
+          id="c"
+            placeholder="Your Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <div>
+          
+          <div style="display: inline-block;" id="oo">
+            <div class="user" style="display: inline-block; font-size: 0.5cm;">
+              Gender : Male <input type="radio" name="t" value="Male" />   
+            </div>
+          </div>
+          <div style="display: inline-block;" id="oo">
+            <div class="user" style="display: inline-block; font-size: 0.5cm;">
+              Female <input type="radio" name="t" value="Female"/>  
+            </div>
+          </div>
+          <div style="display: inline-block;" id="oo">
+            <div class="user" style="display: inline-block; font-size: 0.5cm;">
+              Others <input type="radio" name="t" value="Others" />
+            </div>
+          </div>
+        
+        <div style="display: inline-block;"></div>
+        <fieldset class="user">
+          <input
+          id="e"
+            placeholder="Email id (optional)"
+            type="text"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset class="user">
+          <input
+          id="f"
+            placeholder="Github profile"
+            type="text"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset class="user">
+          <input
+          id="g"
+            placeholder="LinkedIn profile"
+            type="text"
+            tabindex="4"
+            required
+          />
+        </fieldset>
+        <fieldset class="user" id="o">
+          <textarea
+        id="h"
+            placeholder="Your Address...."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+       
+        <button
+          style="font-size: 0.5cm;"
+          name="submit"
+          type="submit"
+          id="contact-submit"
+          data-submit="...Sending"
+        >
+          Submit
+        </button>
+        <div id="i" style="color: white; font-size: 0.5cm;"></div>
+      </form>
+    </div>
+  </body>
+</html>
